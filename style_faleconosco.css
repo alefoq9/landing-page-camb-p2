@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Atkinson Hyperlegible", serif;
+    font-size: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    background-color: #5F6C37;
+}
+
+.navbar_logo {
+    padding-top: 2px;
+    width: 130px;
+}
+
+.navbar_menu {
+    display: flex;
+    gap: 70px;
+    padding-left: 4%;
+}
+
+.navbar_menu_item {
+    font-size: 15px;
+    color: white;
+}
+
+.conteudo {
+    margin-bottom: 60px;
+}
+
+.sec_titulo_contato {
+    display: flex;
+    flex-direction: row;
+    background-image: url(grafismo_geo3.svg), url(grafismo_geo2.svg);
+    background-position: left top, right top;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+.titulo_contato {
+    padding: 15%;
+}
+
+.titulo_contato_texto {
+    font-size: 40px;
+}
+
+.titulo_contato_subtexto {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.form-container {
+    color: white;
+    background: #273617;
+    padding: 40px;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.input-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+
+.input-container input {
+    width: 18.85rem;
+}
+
+input, textarea, button {
+    width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    padding: 8px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+}
+
+textarea { height: 320px; resize: none; }
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 110px;
+}
+
+.msg-container {
+    margin-top: 15px;
+}
+
+button:hover { background: #dadada; }
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #273617;
+}
+
+.footerimg {
+    padding: 1%;
+}
+
+.footer_texto {
+    color: white;
+    font-size: 20px;
+}
+
+.icone_facebook {
+    padding-left: 12px;
+    padding-bottom: 4.5px;
+}

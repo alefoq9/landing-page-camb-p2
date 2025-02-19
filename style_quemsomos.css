@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Atkinson Hyperlegible", serif;
+    font-size: 100%;
+
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    background-color: #5F6C37;
+}
+
+.navbar_logo {
+    padding-top: 2px;
+    width: 130px;
+}
+
+.navbar_menu {
+    display: flex;
+    gap: 70px;
+    padding-left: 4%;
+}
+
+.navbar_menu_item {
+    font-size: 15px;
+    color: white;
+}
+
+.conteudo {
+    margin-bottom: 60px;
+}
+
+.introducao {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 60px;
+}
+
+.quemsomos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 14%;
+    padding-right: 3%;
+}
+
+.introducao_titulo {
+    font-size: 40px;
+}
+
+.introducao_texto {
+    font-weight: 100;
+    font-size: 18px;
+    max-width: 90%;
+}
+
+.introducao2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fazemos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 14%;
+    padding-right: 3%;
+}
+
+.introducao2_titulo {
+    font-size: 40px;
+}
+
+.introducao2_texto {
+    font-weight: 100;
+    font-size: 18px;
+    max-width: 90%;
+}
+
+.imgintro2div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.imgintro2 {
+    width: 70%;
+}
+
+.introducao3_titulo {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    padding: 2%;
+    padding-left: 14%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .button-left, .button-right {
+    position: absolute;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: bold;
+    z-index: 1;
+    cursor: pointer;
+    
+    background-color: rgba(22,24,30, .5);
+    color: white;
+    transition: background-color 200ms ease-in-out;
+  }
+  
+  .button-left:hover, .button-right:hover {
+     background-color: rgba(22,24,30, .8);
+  }
+  
+  .button-left {
+    justify-content: flex-start;
+    top: 0;
+    bottom: 0;  
+  }
+  
+  .button-right {
+    justify-content: flex-end;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .carrossel {
+    display: flex;
+    gap: 100px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-size: 1.4rem;
+  }
+  
+  .item {
+    flex-shrink: 0;
+    width: 450px;
+    height: 280px;
+    padding: 60px;
+    border-radius: 20px;
+    background-color: #273617;
+    color: white;
+  }
+
+  .item_texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.labs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 14%;
+    padding-right: 3%;
+    padding-top: 60px;
+}
+
+.introducao4_titulo {
+    font-size: 40px;
+}
+
+.introducao4_texto {
+    display: flex;
+    flex-direction: row;
+    font-weight: 100;
+    font-size: 18px;
+    max-width: 90%;
+}
+
+.introducao4_img {
+    padding-left: 60px;
+}
+
+.imgholder2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.imgholder2img {
+    width: 60%;
+    padding-bottom: 60px;
+}
+
+.depoimentos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 14%;
+    padding-right: 3%;
+}
+
+.introducao5_titulo {
+    font-size: 40px;
+}
+
+.introducao5_subtitulo {
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 50px;
+}
+
+.dep_box_sec {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.dep_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.dep_box_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #273617;
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    padding: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #273617;
+}
+
+.footerimg {
+    padding: 1%;
+}
+
+.footer_texto {
+    color: white;
+    font-size: 20px;
+}
+
+.icone_facebook {
+    padding-left: 12px;
+    padding-bottom: 4.5px;
+}
