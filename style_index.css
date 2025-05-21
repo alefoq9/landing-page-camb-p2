@@ -150,8 +150,8 @@ body {
   
   .item {
     flex-shrink: 0;
-    width: 450px;
-    height: 280px;
+    width: 700px;
+    height: 250px;
     padding: 60px;
     border-radius: 20px;
     background-color: #273617;
